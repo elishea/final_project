@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+#grid-1 {
+  height: 300px;
+  background-color: #2b79dc;
+  color: white;
+  text-align: center;
+}
+
+#grid-1:hover {
+    background-color: #ff84c7;
+}
+
+#grid-2 {
+  height: 300px;
+  background-color: #26baae;
+  color: white;
+  text-align: center;
+}
+
+#grid-2:hover {
+  background-color: #f98f6f;
+}
+
+#grid-3 {
+  height: 300px;
+  background-color: #faed67;
+  color: white;
+  text-align: center;
+}
+
+#grid-3:hover {
+  background-color: #f0595b;
+}
